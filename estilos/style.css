@@ -92,13 +92,14 @@ div#social{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2em;
+  gap: 1.5em;
 }
 div#social a{
   color: var(--destaque);
   font-weight: 600;
   padding-top: 20px;
   transition: color 0.5s;
+  font-size: 0.9rem;
 
 }
 div#social a:hover{
