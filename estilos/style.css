@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 :root{
@@ -92,6 +93,16 @@ div#social{
   justify-content: center;
   align-items: center;
   gap: 2em;
+}
+div#social a{
+  color: var(--destaque);
+  font-weight: 600;
+  padding-top: 20px;
+  transition: color 0.5s;
+
+}
+div#social a:hover{
+  color: var(--destaque-inverso);
 }
 
 
